@@ -8,6 +8,8 @@ var mod_dir_path := ""
 var extensions_dir_path := ""
 var translations_dir_path := ""
 
+onready var KANA_bfx: Node = get_node("/root/ModLoader/KANA-BFX")
+
 
 func _init(modLoader = ModLoader) -> void:
 	mod_dir_path = ModLoaderMod.get_unpacked_dir().plus_file(KANA_TREASUREHUNTER_DIR)
@@ -38,4 +40,10 @@ func _ready() -> void:
 	# Add content. These .tres files are ContentData resources
 	ContentLoader.load_data(content_dir.plus_file("KANA_Treasure_Hunte_Content.tres"), KANA_TREASUREHUNTER_LOG_NAME)
 
+	KANA_bfx.connect("consumable_spawn_triggered", self, "_on_kana_bfx_consumable_spawn_triggered")
 
+
+# TODO: This just counts all consumable spawns that get triggered,
+# ideally it would only count the ones triggered by the shovel.
+func _on_kana_bfx_consumable_spawn_triggered(id: String, position: Vector2) -> void:
+	RunData.tracked_item_effects["weapon_kana_shovel"] += 1
