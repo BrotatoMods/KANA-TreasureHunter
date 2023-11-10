@@ -11,7 +11,7 @@
 
 [resource]
 script = ExtResource( 3 )
-my_id = "weapon_shovel_1"
+my_id = "weapon_kana_shovel_1"
 unlocked_by_default = true
 icon = ExtResource( 2 )
 name = "WEAPON_KANA_SHOVEL"
