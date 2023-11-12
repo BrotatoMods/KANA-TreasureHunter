@@ -7,7 +7,7 @@
 
 [resource]
 script = ExtResource( 1 )
-key = ""
+key = "consumable_item_box"
 text_key = ""
 value = 0
 custom_key = "kana_bfx_add_random_effect_on_consumable_collected"
