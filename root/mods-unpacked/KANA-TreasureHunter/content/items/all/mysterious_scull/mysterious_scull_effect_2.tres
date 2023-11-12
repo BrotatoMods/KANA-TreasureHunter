@@ -1,16 +1,16 @@
-[gd_resource type="Resource" load_steps=3 format=2]
+[gd_resource type="Resource" load_steps=4 format=2]
 
-[ext_resource path="res://mods-unpacked/KANA-BFX/effect_definitions/effect_projectile_grid.gd" type="Script" id=1]
-[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_scull/traps/explosion/explosion.tscn" type="PackedScene" id=2]
+[ext_resource path="res://mods-unpacked/KANA-BFX/effect_definitions/effect_remove_effect.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_scull/mysterious_scull_effect_1b.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_scull/mysterious_scull_effect_1a.tres" type="Resource" id=3]
 
 [resource]
 script = ExtResource( 1 )
 key = "consumable_item_box"
 text_key = ""
-value = 0
-custom_key = "kana_bfx_spawn_projectile_grid_on_consumable_collected"
+value = 1
+custom_key = "kana_bfx_remove_effect_after_consumable_collected"
 storage_method = 2
 effect_sign = 1
 custom_args = [  ]
-projectile_scene = ExtResource( 2 )
-projectile_count = 25
+effects_to_remove = [ ExtResource( 3 ), ExtResource( 2 ) ]

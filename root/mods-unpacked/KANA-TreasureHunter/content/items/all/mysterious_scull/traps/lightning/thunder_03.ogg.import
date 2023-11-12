@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/thunder_03.ogg-bf76ec478a58e6fb977eb7ecab341744.oggstr"
+
+[deps]
+
+source_file="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_scull/traps/lightning/thunder_03.ogg"
+dest_files=[ "res://.import/thunder_03.ogg-bf76ec478a58e6fb977eb7ecab341744.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

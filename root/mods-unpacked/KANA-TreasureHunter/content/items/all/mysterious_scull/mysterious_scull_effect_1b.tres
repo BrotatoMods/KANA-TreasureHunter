@@ -1,0 +1,16 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_scull/traps/explosion/explosion.tscn" type="PackedScene" id=1]
+[ext_resource path="res://mods-unpacked/KANA-BFX/effect_definitions/effect_projectile.gd" type="Script" id=2]
+
+[resource]
+script = ExtResource( 2 )
+key = "consumable_item_box"
+text_key = ""
+value = 0
+custom_key = "kana_bfx_spawn_projectile_grid_on_consumable_collected"
+storage_method = 2
+effect_sign = 1
+custom_args = [  ]
+projectile_scene = ExtResource( 1 )
+projectile_count = 25

@@ -1,15 +1,18 @@
-[gd_resource type="Resource" load_steps=3 format=2]
+[gd_resource type="Resource" load_steps=5 format=2]
 
-[ext_resource path="res://mods-unpacked/KANA-BFX/effect_definitions/effect_spawn_enemy.gd" type="Script" id=1]
-[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_scull/traps/rock_chasing/rock_chasing.tscn" type="PackedScene" id=2]
+[ext_resource path="res://mods-unpacked/KANA-BFX/effect_definitions/effect_pick_random_effect.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_scull/mysterious_scull_effect_1b.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_scull/mysterious_scull_effect_1a.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_scull/mysterious_scull_effect_1c.tres" type="Resource" id=4]
 
 [resource]
 script = ExtResource( 1 )
-key = "consumable_item_box"
+key = ""
 text_key = ""
 value = 0
-custom_key = "kana_bfx_spawn_enemy_on_consumable_collected"
+custom_key = "kana_bfx_add_random_effect_on_consumable_collected"
 storage_method = 2
-effect_sign = 1
+effect_sign = 2
 custom_args = [  ]
-enemy_scene = ExtResource( 2 )
+effects = [ ExtResource( 3 ), ExtResource( 2 ), ExtResource( 4 ) ]
+probabilities = [  ]

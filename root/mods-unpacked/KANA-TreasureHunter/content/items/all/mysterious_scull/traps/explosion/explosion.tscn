@@ -1,8 +1,13 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://projectiles/bullet_enemy/enemy_projectile.tscn" type="PackedScene" id=1]
 [ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_scull/traps/explosion/Explosion_radius.png" type="Texture" id=2]
 [ext_resource path="res://particles/explosion_smoke.tscn" type="PackedScene" id=3]
+[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/projectiles/kana_enemy_projectile.gd" type="Script" id=4]
+[ext_resource path="res://projectiles/rocket/explosion_small_no_tail_01.wav" type="AudioStream" id=5]
+[ext_resource path="res://projectiles/rocket/explosion_small_short_01.wav" type="AudioStream" id=6]
+[ext_resource path="res://projectiles/rocket/explosion_small_no_tail_03.wav" type="AudioStream" id=7]
+[ext_resource path="res://projectiles/rocket/explosion_small_no_tail_02.wav" type="AudioStream" id=8]
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 44.0
@@ -82,10 +87,10 @@ tracks/2/loop_wrap = true
 tracks/2/imported = false
 tracks/2/enabled = true
 tracks/2/keys = {
-"times": PoolRealArray( 0, 0.85, 0.9 ),
-"transitions": PoolRealArray( 1, 1, 1 ),
+"times": PoolRealArray( 0, 0.85 ),
+"transitions": PoolRealArray( 1, 1 ),
 "update": 1,
-"values": [ false, true, false ]
+"values": [ false, true ]
 }
 tracks/3/type = "method"
 tracks/3/path = NodePath(".")
@@ -107,8 +112,25 @@ tracks/3/keys = {
 "method": "set_to_be_destroyed"
 } ]
 }
+tracks/4/type = "method"
+tracks/4/path = NodePath(".")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0.86 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "play_sound"
+} ]
+}
 
 [node name="EnemyProjectile" instance=ExtResource( 1 )]
+script = ExtResource( 4 )
+hit_sounds = [ ExtResource( 5 ), ExtResource( 8 ), ExtResource( 7 ), ExtResource( 6 ) ]
+volume_mods = [ -15.0, -15.0, -15.0, -15.0 ]
 
 [node name="Sprite" parent="." index="0"]
 position = Vector2( -1, 55 )
