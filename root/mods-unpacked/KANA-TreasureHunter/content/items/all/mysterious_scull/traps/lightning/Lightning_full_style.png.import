@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Lightning.png-6b199a00b3e58008e95ee19663bbccff.stex"
+path="res://.import/Lightning_full_style.png-0641115fbc1f00261823a9642b602985.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_scull/traps/lightning/Lightning.png"
-dest_files=[ "res://.import/Lightning.png-6b199a00b3e58008e95ee19663bbccff.stex" ]
+source_file="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_scull/traps/lightning/Lightning_full_style.png"
+dest_files=[ "res://.import/Lightning_full_style.png-0641115fbc1f00261823a9642b602985.stex" ]
 
 [params]
 
