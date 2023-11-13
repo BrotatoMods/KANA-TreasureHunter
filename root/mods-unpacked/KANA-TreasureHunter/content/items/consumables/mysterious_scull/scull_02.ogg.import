@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/scull_02.ogg-96956bb825c74d637d043bfbf4d145b4.oggstr"
+
+[deps]
+
+source_file="res://mods-unpacked/KANA-TreasureHunter/content/items/consumables/mysterious_scull/scull_02.ogg"
+dest_files=[ "res://.import/scull_02.ogg-96956bb825c74d637d043bfbf4d145b4.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
