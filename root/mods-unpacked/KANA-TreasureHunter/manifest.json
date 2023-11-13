@@ -1,7 +1,7 @@
 {
 	"name": "TreasureHunter",
 	"namespace": "KANA",
-	"version_number": "0.1.0",
+	"version_number": "0.4.4",
 	"description": "Description of your mod...",
 	"website_url": "https://github.com/BrotatoMods",
 	"dependencies": [

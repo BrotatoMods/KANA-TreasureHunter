@@ -4,9 +4,9 @@
 
 [resource]
 script = ExtResource( 1 )
-key = "item_tree"
+key = "kana_mysterious_scull"
 text_key = "effect_starting_item"
-value = 5
+value = 1
 custom_key = "starting_item"
 storage_method = 0
 effect_sign = 3

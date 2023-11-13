@@ -1,4 +1,4 @@
-[gd_resource type="Resource" load_steps=25 format=2]
+[gd_resource type="Resource" load_steps=26 format=2]
 
 [ext_resource path="res://items/characters/character_data.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/characters/treasure_hunter/treasure_hunter_hat_appearance.tres" type="Resource" id=2]
@@ -23,6 +23,7 @@
 [ext_resource path="res://weapons/ranged/revolver/1/revolver_data.tres" type="Resource" id=21]
 [ext_resource path="res://weapons/ranged/crossbow/1/crossbow_data.tres" type="Resource" id=22]
 [ext_resource path="res://weapons/melee/hatchet/1/hatchet_data.tres" type="Resource" id=23]
+[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/characters/treasure_hunter/treasure_hunter_effect_4b.tres" type="Resource" id=24]
 
 [sub_resource type="StreamTexture" id=1]
 flags = 4
@@ -36,7 +37,7 @@ icon = SubResource( 1 )
 name = "CHARACTER_TREASURE_HUNTER"
 tier = 0
 value = 1
-effects = [ ExtResource( 6 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 8 ), ExtResource( 7 ), ExtResource( 13 ), ExtResource( 15 ), ExtResource( 3 ), ExtResource( 12 ) ]
+effects = [ ExtResource( 6 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 8 ), ExtResource( 7 ), ExtResource( 13 ), ExtResource( 15 ), ExtResource( 3 ), ExtResource( 12 ), ExtResource( 24 ) ]
 tracking_text = "ITEM_BOX_COLLECTED_COUNT"
 max_nb = -1
 item_appearances = [ ExtResource( 10 ), ExtResource( 11 ), ExtResource( 2 ) ]

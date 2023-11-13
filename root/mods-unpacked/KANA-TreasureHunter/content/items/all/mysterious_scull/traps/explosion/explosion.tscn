@@ -4,10 +4,10 @@
 [ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_scull/traps/explosion/Explosion_radius.png" type="Texture" id=2]
 [ext_resource path="res://particles/explosion_smoke.tscn" type="PackedScene" id=3]
 [ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/projectiles/kana_enemy_projectile.gd" type="Script" id=4]
-[ext_resource path="res://projectiles/rocket/explosion_small_no_tail_01.wav" type="AudioStream" id=5]
+[ext_resource path="res://projectiles/rocket/explosion_small_no_tail_02.wav" type="AudioStream" id=5]
 [ext_resource path="res://projectiles/rocket/explosion_small_short_01.wav" type="AudioStream" id=6]
-[ext_resource path="res://projectiles/rocket/explosion_small_no_tail_03.wav" type="AudioStream" id=7]
-[ext_resource path="res://projectiles/rocket/explosion_small_no_tail_02.wav" type="AudioStream" id=8]
+[ext_resource path="res://projectiles/rocket/explosion_small_no_tail_01.wav" type="AudioStream" id=7]
+[ext_resource path="res://projectiles/rocket/explosion_small_no_tail_03.wav" type="AudioStream" id=8]
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 44.0
@@ -123,14 +123,16 @@ tracks/4/keys = {
 "transitions": PoolRealArray( 1 ),
 "values": [ {
 "args": [  ],
-"method": "play_sound"
+"method": "kana_play_sound"
 } ]
 }
 
 [node name="EnemyProjectile" instance=ExtResource( 1 )]
 script = ExtResource( 4 )
-hit_sounds = [ ExtResource( 5 ), ExtResource( 8 ), ExtResource( 7 ), ExtResource( 6 ) ]
+hit_sounds = [ ExtResource( 7 ), ExtResource( 5 ), ExtResource( 8 ), ExtResource( 6 ) ]
 volume_mods = [ -15.0, -15.0, -15.0, -15.0 ]
+damage_base = 1
+damage_increase_each_wave = 1.5
 
 [node name="Sprite" parent="." index="0"]
 position = Vector2( -1, 55 )

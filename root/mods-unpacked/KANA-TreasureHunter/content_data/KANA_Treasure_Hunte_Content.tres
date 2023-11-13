@@ -1,4 +1,4 @@
-[gd_resource type="Resource" load_steps=7 format=2]
+[gd_resource type="Resource" load_steps=8 format=2]
 
 [ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/content_data.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/characters/treasure_hunter/treasure_hunter_data.tres" type="Resource" id=2]
@@ -6,11 +6,12 @@
 [ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/weapons/shovel/3/shovel_3_data.tres" type="Resource" id=4]
 [ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/weapons/shovel/4/shovel_4_data.tres" type="Resource" id=5]
 [ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/weapons/shovel/1/shovel_1_data.tres" type="Resource" id=6]
+[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_scull/mysterious_scull_data.tres" type="Resource" id=7]
 
 [resource]
 script = ExtResource( 1 )
 characters = [ ExtResource( 2 ) ]
-items = [  ]
+items = [ ExtResource( 7 ) ]
 weapons = [ ExtResource( 6 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ) ]
 weapons_characters = [  ]
 sets = [  ]
