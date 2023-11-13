@@ -1,0 +1,22 @@
+[gd_resource type="Resource" load_steps=5 format=2]
+
+[ext_resource path="res://mods-unpacked/KANA-BFX/data_definitions/KANABFXConsumabeData.gd" type="Script" id=1]
+[ext_resource path="res://items/consumables/item_box/item_box_pickup.wav" type="AudioStream" id=2]
+[ext_resource path="res://items/consumables/fruit/fruit_effect.tres" type="Resource" id=3]
+[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/consumables/mysterious_scull/mysterious_scull_icon_small.png" type="Texture" id=4]
+
+[resource]
+script = ExtResource( 1 )
+my_id = "kana_consumable_mysterious_scull"
+unlocked_by_default = true
+icon = ExtResource( 4 )
+name = "KANA_CONSUMABLE_MYSTERIOUS_SCULL"
+tier = 1
+value = 1
+effects = [ ExtResource( 3 ) ]
+tracking_text = ""
+max_nb = -1
+item_appearances = [  ]
+tags = [  ]
+to_be_processed_at_end_of_wave = true
+pickup_sounds = [ ExtResource( 2 ) ]

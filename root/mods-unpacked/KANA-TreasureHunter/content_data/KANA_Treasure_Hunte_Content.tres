@@ -1,4 +1,4 @@
-[gd_resource type="Resource" load_steps=8 format=2]
+[gd_resource type="Resource" load_steps=9 format=2]
 
 [ext_resource path="res://mods-unpacked/Darkly77-ContentLoader/content_data.gd" type="Script" id=1]
 [ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/characters/treasure_hunter/treasure_hunter_data.tres" type="Resource" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/weapons/shovel/4/shovel_4_data.tres" type="Resource" id=5]
 [ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/weapons/shovel/1/shovel_1_data.tres" type="Resource" id=6]
 [ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_scull/mysterious_scull_data.tres" type="Resource" id=7]
+[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/consumables/mysterious_scull/mysterious_scull_data.tres" type="Resource" id=8]
 
 [resource]
 script = ExtResource( 1 )
@@ -17,7 +18,7 @@ weapons_characters = [  ]
 sets = [  ]
 challenges = [  ]
 upgrades = [  ]
-consumables = [  ]
+consumables = [ ExtResource( 8 ) ]
 elites = [  ]
 difficulties = [  ]
 debug_items = [  ]
