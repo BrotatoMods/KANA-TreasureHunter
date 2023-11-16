@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource( 1 )
-key = "kana_mysterious_scull"
+key = "kana_mysterious_medal"
 text_key = "effect_starting_item"
 value = 1
 custom_key = "starting_item"

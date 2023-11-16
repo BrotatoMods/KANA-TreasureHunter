@@ -1,0 +1,24 @@
+[gd_resource type="Resource" load_steps=5 format=2]
+
+[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_medal/traps/lightning/lightning.tscn" type="PackedScene" id=1]
+[ext_resource path="res://mods-unpacked/KANA-BFX/effect_definitions/effect_projectile.gd" type="Script" id=2]
+[ext_resource path="res://items/global/custom_arg.gd" type="Script" id=3]
+
+[sub_resource type="Resource" id=1]
+script = ExtResource( 3 )
+arg_index = 0
+arg_sign = 1
+arg_value = 2
+arg_format = 0
+
+[resource]
+script = ExtResource( 2 )
+key = "kana_consumable_mysterious_scull"
+text_key = "KANA_BFX_SPAWN_PROJECTILE_IN_FRONT_OF_PLAYER_ON_CONSUMABLE_COLLECTED"
+value = 0
+custom_key = "kana_bfx_spawn_projectile_in_front_of_player_on_consumable_collected"
+storage_method = 2
+effect_sign = 1
+custom_args = [ SubResource( 1 ) ]
+projectile_scene = ExtResource( 1 )
+projectile_count = 1

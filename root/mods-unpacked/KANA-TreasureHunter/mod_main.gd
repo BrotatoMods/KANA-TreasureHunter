@@ -43,7 +43,7 @@ func _ready() -> void:
 	KANA_bfx.connect("consumable_spawn_triggered", self, "_on_kana_bfx_consumable_spawn_triggered")
 
 
-# TODO: This just counts all consumable spawns that get triggered,
-# ideally it would only count the ones triggered by the shovel.
-func _on_kana_bfx_consumable_spawn_triggered(id: String, position: Vector2) -> void:
-	RunData.tracked_item_effects["weapon_kana_shovel"] += 1
+func _on_kana_bfx_consumable_spawn_triggered(id: String, position: Vector2, triggered_by: Object) -> void:
+	if triggered_by.weapon_id == "weapon_kana_shovel":
+		RunData.tracked_item_effects["weapon_kana_shovel"] += 1
+		triggered_by.emit_signal("tracked_value_updated")
