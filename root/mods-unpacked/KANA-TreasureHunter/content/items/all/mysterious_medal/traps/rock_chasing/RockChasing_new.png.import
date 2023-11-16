@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/RockChasing_new.png-7af1f034fc89d11b7510a46319a04d8a.stex"
+path="res://.import/RockChasing_new.png-92ccdbc2c36ef427847881606e591589.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_medal/traps/rock_chasing/RockChasing_new.png"
-dest_files=[ "res://.import/RockChasing_new.png-7af1f034fc89d11b7510a46319a04d8a.stex" ]
+source_file="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/items/all/mysterious_medal/traps/rock_chasing/RockChasing_new.png"
+dest_files=[ "res://.import/RockChasing_new.png-92ccdbc2c36ef427847881606e591589.stex" ]
 
 [params]
 

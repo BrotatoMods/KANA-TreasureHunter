@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/treasure_hunter_eyes.png-89bc1fc73b3b4ec2f8ea5e24bf436b1c.stex"
+path="res://.import/treasure_hunter_eyes.png-21f53f33394eb8134cd3724c83f00e8a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods-unpacked/KANA-TreasureHunter/content/characters/treasure_hunter/treasure_hunter_eyes.png"
-dest_files=[ "res://.import/treasure_hunter_eyes.png-89bc1fc73b3b4ec2f8ea5e24bf436b1c.stex" ]
+source_file="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/characters/treasure_hunter/treasure_hunter_eyes.png"
+dest_files=[ "res://.import/treasure_hunter_eyes.png-21f53f33394eb8134cd3724c83f00e8a.stex" ]
 
 [params]
 

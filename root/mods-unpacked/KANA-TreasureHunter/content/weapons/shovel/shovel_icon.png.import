@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/shovel_icon.png-42c39459e5a0c49231f29bbcbfdfba55.stex"
+path="res://.import/shovel_icon.png-3fa8adb10001199f672a20163fde9b6b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods-unpacked/KANA-TreasureHunter/content/weapons/shovel/shovel_icon.png"
-dest_files=[ "res://.import/shovel_icon.png-42c39459e5a0c49231f29bbcbfdfba55.stex" ]
+source_file="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/weapons/shovel/shovel_icon.png"
+dest_files=[ "res://.import/shovel_icon.png-3fa8adb10001199f672a20163fde9b6b.stex" ]
 
 [params]
 

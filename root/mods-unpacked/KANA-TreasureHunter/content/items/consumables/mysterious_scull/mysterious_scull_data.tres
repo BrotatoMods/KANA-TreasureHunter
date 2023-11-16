@@ -1,11 +1,11 @@
 [gd_resource type="Resource" load_steps=7 format=2]
 
 [ext_resource path="res://mods-unpacked/KANA-BFX/data_definitions/KANABFXConsumabeData.gd" type="Script" id=1]
-[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/consumables/mysterious_scull/scull_01.ogg" type="AudioStream" id=2]
+[ext_resource path="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/items/consumables/mysterious_scull/scull_01.ogg" type="AudioStream" id=2]
 [ext_resource path="res://items/consumables/fruit/fruit_effect.tres" type="Resource" id=3]
-[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/consumables/mysterious_scull/mysterious_scull_icon_small.png" type="Texture" id=4]
-[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/consumables/mysterious_scull/scull_02.ogg" type="AudioStream" id=5]
-[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/consumables/mysterious_scull/scull_03.ogg" type="AudioStream" id=6]
+[ext_resource path="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/items/consumables/mysterious_scull/mysterious_scull_icon_small.png" type="Texture" id=4]
+[ext_resource path="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/items/consumables/mysterious_scull/scull_02.ogg" type="AudioStream" id=5]
+[ext_resource path="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/items/consumables/mysterious_scull/scull_03.ogg" type="AudioStream" id=6]
 
 [resource]
 script = ExtResource( 1 )

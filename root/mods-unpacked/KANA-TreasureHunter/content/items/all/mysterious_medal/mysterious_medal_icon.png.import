@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mysterious_medal_icon.png-539f42dce754cd2c3e8961c0513ca3f5.stex"
+path="res://.import/mysterious_medal_icon.png-d6c60e4507b31afb6748fd9e9f64c8b1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_medal/mysterious_medal_icon.png"
-dest_files=[ "res://.import/mysterious_medal_icon.png-539f42dce754cd2c3e8961c0513ca3f5.stex" ]
+source_file="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/items/all/mysterious_medal/mysterious_medal_icon.png"
+dest_files=[ "res://.import/mysterious_medal_icon.png-d6c60e4507b31afb6748fd9e9f64c8b1.stex" ]
 
 [params]
 

@@ -1,13 +1,13 @@
 [gd_resource type="Resource" load_steps=9 format=2]
 
-[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/weapons/shovel/shovel.tscn" type="PackedScene" id=1]
-[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/weapons/shovel/shovel_icon.png" type="Texture" id=2]
+[ext_resource path="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/weapons/shovel/shovel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/weapons/shovel/shovel_icon.png" type="Texture" id=2]
 [ext_resource path="res://items/global/weapon_data.gd" type="Script" id=3]
 [ext_resource path="res://items/sets/blade/blade_set_data.tres" type="Resource" id=4]
 [ext_resource path="res://items/sets/primitive/primitive_set_data.tres" type="Resource" id=5]
-[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/weapons/shovel/1/shovel_1_stats.tres" type="Resource" id=6]
-[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/weapons/shovel/2/shovel_2_data.tres" type="Resource" id=7]
-[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/weapons/shovel/shovel_effect_1.tres" type="Resource" id=8]
+[ext_resource path="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/weapons/shovel/1/shovel_1_stats.tres" type="Resource" id=6]
+[ext_resource path="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/weapons/shovel/2/shovel_2_data.tres" type="Resource" id=7]
+[ext_resource path="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/weapons/shovel/shovel_effect_1.tres" type="Resource" id=8]
 
 [resource]
 script = ExtResource( 3 )

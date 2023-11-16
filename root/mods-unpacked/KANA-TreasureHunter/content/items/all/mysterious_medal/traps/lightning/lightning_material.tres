@@ -1,6 +1,6 @@
 [gd_resource type="ShaderMaterial" load_steps=6 format=2]
 
-[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_medal/traps/lightning/lightning.tres" type="Shader" id=1]
+[ext_resource path="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/items/all/mysterious_medal/traps/lightning/lightning.tres" type="Shader" id=1]
 
 [sub_resource type="Gradient" id=1]
 offsets = PoolRealArray( 0, 0.362018, 0.406528, 0.48368, 0.525223, 0.608309, 0.661721, 0.747774, 0.795252, 1 )

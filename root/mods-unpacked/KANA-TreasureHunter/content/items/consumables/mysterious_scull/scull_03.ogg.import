@@ -2,12 +2,12 @@
 
 importer="ogg_vorbis"
 type="AudioStreamOGGVorbis"
-path="res://.import/scull_03.ogg-bec7dc1bea681372f8a6460e51390803.oggstr"
+path="res://.import/scull_03.ogg-27932af9aa2b7832324d15e24bc66e39.oggstr"
 
 [deps]
 
-source_file="res://mods-unpacked/KANA-TreasureHunter/content/items/consumables/mysterious_scull/scull_03.ogg"
-dest_files=[ "res://.import/scull_03.ogg-bec7dc1bea681372f8a6460e51390803.oggstr" ]
+source_file="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/items/consumables/mysterious_scull/scull_03.ogg"
+dest_files=[ "res://.import/scull_03.ogg-27932af9aa2b7832324d15e24bc66e39.oggstr" ]
 
 [params]
 

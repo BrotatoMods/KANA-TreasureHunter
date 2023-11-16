@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Explosion_radius.png-7030cdaed5ec81b354afa05e6f0c5371.stex"
+path="res://.import/Explosion_radius.png-c5a6e8c0c1046f92d212c75a1d43143a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_medal/traps/explosion/Explosion_radius.png"
-dest_files=[ "res://.import/Explosion_radius.png-7030cdaed5ec81b354afa05e6f0c5371.stex" ]
+source_file="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/items/all/mysterious_medal/traps/explosion/Explosion_radius.png"
+dest_files=[ "res://.import/Explosion_radius.png-c5a6e8c0c1046f92d212c75a1d43143a.stex" ]
 
 [params]
 

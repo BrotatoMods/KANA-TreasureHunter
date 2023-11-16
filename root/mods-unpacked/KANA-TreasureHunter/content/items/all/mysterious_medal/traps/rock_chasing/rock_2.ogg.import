@@ -2,12 +2,12 @@
 
 importer="ogg_vorbis"
 type="AudioStreamOGGVorbis"
-path="res://.import/rock_2.ogg-4e4f3a0727fab96d46753ebc810edf01.oggstr"
+path="res://.import/rock_2.ogg-96f597ab4e232d44d1edadcdfa450438.oggstr"
 
 [deps]
 
-source_file="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_medal/traps/rock_chasing/rock_2.ogg"
-dest_files=[ "res://.import/rock_2.ogg-4e4f3a0727fab96d46753ebc810edf01.oggstr" ]
+source_file="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/items/all/mysterious_medal/traps/rock_chasing/rock_2.ogg"
+dest_files=[ "res://.import/rock_2.ogg-96f597ab4e232d44d1edadcdfa450438.oggstr" ]
 
 [params]
 

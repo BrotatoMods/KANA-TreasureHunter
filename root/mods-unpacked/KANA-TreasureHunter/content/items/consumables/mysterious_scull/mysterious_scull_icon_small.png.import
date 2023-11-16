@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mysterious_scull_icon_small.png-dfafa941d5c2562e5ccd2f22754bc1e3.stex"
+path="res://.import/mysterious_scull_icon_small.png-9d1551ed3ee31ba149ad13d10388c122.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods-unpacked/KANA-TreasureHunter/content/items/consumables/mysterious_scull/mysterious_scull_icon_small.png"
-dest_files=[ "res://.import/mysterious_scull_icon_small.png-dfafa941d5c2562e5ccd2f22754bc1e3.stex" ]
+source_file="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/items/consumables/mysterious_scull/mysterious_scull_icon_small.png"
+dest_files=[ "res://.import/mysterious_scull_icon_small.png-9d1551ed3ee31ba149ad13d10388c122.stex" ]
 
 [params]
 

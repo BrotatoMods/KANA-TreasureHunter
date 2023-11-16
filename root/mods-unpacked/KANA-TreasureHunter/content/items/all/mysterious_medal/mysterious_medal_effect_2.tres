@@ -1,7 +1,7 @@
 [gd_resource type="Resource" load_steps=4 format=2]
 
-[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_medal/mysterious_medal_effect_1b.tres" type="Resource" id=1]
-[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_medal/mysterious_medal_effect_1a.tres" type="Resource" id=2]
+[ext_resource path="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/items/all/mysterious_medal/mysterious_medal_effect_1b.tres" type="Resource" id=1]
+[ext_resource path="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/items/all/mysterious_medal/mysterious_medal_effect_1a.tres" type="Resource" id=2]
 [ext_resource path="res://mods-unpacked/KANA-BFX/effect_definitions/effect_remove_effect.gd" type="Script" id=3]
 
 [resource]

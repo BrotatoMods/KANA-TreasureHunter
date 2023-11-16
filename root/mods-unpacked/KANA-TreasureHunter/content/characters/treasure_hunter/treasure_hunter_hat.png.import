@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/treasure_hunter_hat.png-bd44443fea639336728e92ce425af6d8.stex"
+path="res://.import/treasure_hunter_hat.png-dfa393bd9e5878423d2568976c20e108.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mods-unpacked/KANA-TreasureHunter/content/characters/treasure_hunter/treasure_hunter_hat.png"
-dest_files=[ "res://.import/treasure_hunter_hat.png-bd44443fea639336728e92ce425af6d8.stex" ]
+source_file="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/characters/treasure_hunter/treasure_hunter_hat.png"
+dest_files=[ "res://.import/treasure_hunter_hat.png-dfa393bd9e5878423d2568976c20e108.stex" ]
 
 [params]
 

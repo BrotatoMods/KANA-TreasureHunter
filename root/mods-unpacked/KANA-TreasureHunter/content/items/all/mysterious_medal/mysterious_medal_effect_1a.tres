@@ -1,6 +1,6 @@
 [gd_resource type="Resource" load_steps=5 format=2]
 
-[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_medal/traps/rock_chasing/rock_chasing.tscn" type="PackedScene" id=1]
+[ext_resource path="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/items/all/mysterious_medal/traps/rock_chasing/rock_chasing.tscn" type="PackedScene" id=1]
 [ext_resource path="res://mods-unpacked/KANA-BFX/effect_definitions/effect_spawn_enemy.gd" type="Script" id=2]
 [ext_resource path="res://items/global/custom_arg.gd" type="Script" id=3]
 

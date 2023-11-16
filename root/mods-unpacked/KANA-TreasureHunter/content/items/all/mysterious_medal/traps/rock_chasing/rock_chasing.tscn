@@ -1,11 +1,11 @@
 [gd_scene load_steps=10 format=2]
 
-[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_medal/traps/rock_chasing/rock_chasing.gd" type="Script" id=1]
+[ext_resource path="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/items/all/mysterious_medal/traps/rock_chasing/rock_chasing.gd" type="Script" id=1]
 [ext_resource path="res://resources/shaders/flash.gdshader" type="Shader" id=2]
 [ext_resource path="res://entities/units/enemies/enemy.tscn" type="PackedScene" id=3]
-[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_medal/traps/rock_chasing/rock_chasing_stats.tres" type="Resource" id=4]
-[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_medal/traps/rock_chasing/RockChasing_new.png" type="Texture" id=5]
-[ext_resource path="res://mods-unpacked/KANA-TreasureHunter/content/items/all/mysterious_medal/traps/rock_chasing/rock_1.ogg" type="AudioStream" id=6]
+[ext_resource path="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/items/all/mysterious_medal/traps/rock_chasing/rock_chasing_stats.tres" type="Resource" id=4]
+[ext_resource path="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/items/all/mysterious_medal/traps/rock_chasing/RockChasing_new.png" type="Texture" id=5]
+[ext_resource path="res://mods-unpacked/KANA-Pototo/KANA-TreasureHunter/content/items/all/mysterious_medal/traps/rock_chasing/rock_1.ogg" type="AudioStream" id=6]
 
 [sub_resource type="ShaderMaterial" id=1]
 resource_local_to_scene = true
