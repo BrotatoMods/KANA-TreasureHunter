@@ -6,7 +6,7 @@
 script = ExtResource( 1 )
 key = "item_tree"
 text_key = "effect_starting_item"
-value = 3
+value = 5
 custom_key = "starting_item"
 storage_method = 0
 effect_sign = 3
