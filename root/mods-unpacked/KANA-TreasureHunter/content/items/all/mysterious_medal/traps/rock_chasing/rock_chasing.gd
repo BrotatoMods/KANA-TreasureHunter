@@ -14,3 +14,7 @@ func update_animation(movement:Vector2) -> void:
 			_animation_player.play("roll_forwards")
 		elif movement.x < 0:
 			_animation_player.play("roll_backwards")
+
+
+func _on_LifeTimer_timeout() -> void:
+	die()
