@@ -6,8 +6,8 @@
 script = ExtResource( 1 )
 health = 100
 health_increase_each_wave = 500.0
-speed = 280
-speed_randomization = 25
+speed = 375
+speed_randomization = 0
 damage = 4
 damage_increase_each_wave = 0.8
 attack_cd = 30.0
